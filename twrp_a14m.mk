@@ -9,7 +9,7 @@
 PRODUCT_RELEASE_NAME := a145r
 
 ##Device path for OEM device tree
-DEVICE_PATH := device.mk
+DEVICE_PATH := device/samsung/a14m
 
 ##Inherit any OrangeFox-specific settings
 $(call inherit-product-if-exists, $(DEVICE_PATH)/fox_$(a145r).mk)
