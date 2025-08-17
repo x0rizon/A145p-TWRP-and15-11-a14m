@@ -5,6 +5,15 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+##Define hardware platform
+PRODUCT_RELEASE_NAME := a145r
+
+##Device path for OEM device tree
+DEVICE_PATH := device.mk
+
+##Inherit any OrangeFox-specific settings
+$(call inherit-product-if-exists, $(DEVICE_PATH)/fox_$(a145r).mk)
+
 # Inherit from those products. Most specific first.
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
