@@ -46,8 +46,7 @@ OF_STATUS_INDENT_RIGHT := 40
 ##export OF_HIDE_NOTCH := 1
 ##export OF_CLOCK_POS := 1
 OF_ALLOW_DISABLE_NAVBAR := 0
- 
-
-
+ #Mainterner
+OF_MAINTAINER := Isac Silva 
 # use system (ROM) fingerprint where available
 ##export OF_USE_SYSTEM_FINGERPRINT := 1
