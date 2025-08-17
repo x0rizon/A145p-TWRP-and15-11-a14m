@@ -6,7 +6,7 @@
 #
 
 ##Define hardware platform
-PRODUCT_RELEASE_NAME := a145m
+PRODUCT_RELEASE_NAME := a14m
 
 ##Device path for OEM device tree
 DEVICE_PATH := device/samsung/a14m
