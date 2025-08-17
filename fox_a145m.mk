@@ -26,9 +26,6 @@ OF_ENABLE_LPTOOLS := 1
 OF_USE_GREEN_LED := 1
 OF_CLASSIC_LEDS_FUNCTION := 1
 
-# Custom pic for maintainers about section info
-# Image should be 32 bit PNG 192 x 192 px - Size of image should be as small as possible 50kb
-OF_MAINTAINER_AVATAR := /device/nokia/cap_sprout/author.png
 OF_MAINTAINER := Samuel Kendall
 
 # Maximum permissible splash image size (in kilobytes); do *NOT* increase
