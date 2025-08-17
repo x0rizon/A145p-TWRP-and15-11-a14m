@@ -52,7 +52,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
  export FOX_USE_NANO_EDITOR=1
  export FOX_USE_TAR_BINARY=1
  export FOX_USE_SED_BINARY=1
- export 
+ export FOX_USE_XZ_UTILS=1
 
 
 	lunch twrp_$FDEVICE-eng
