@@ -25,7 +25,7 @@ OF_RECOVERY_AB_FULL_REFLASH_RAMDISK := 1
 OF_ENABLE_LPTOOLS := 1
 OF_USE_GREEN_LED := 1
 OF_CLASSIC_LEDS_FUNCTION := 1
-
+TARGET_SUPPORTS_64_BIT_APPS := false
 OF_MAINTAINER := Samuel Kendall
 
 # Maximum permissible splash image size (in kilobytes); do *NOT* increase
